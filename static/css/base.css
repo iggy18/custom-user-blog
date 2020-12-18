@@ -1,38 +1,39 @@
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
+/* --liver: #725752ff;
+--battleship-grey: #878e88ff;
+--opal: #96c0b7ff;
+--beige: #d4dfc7ff;
+--blond: #fef6c9ff; */
 
-body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
-}
 
-.container {
-  max-width: 100%;
-}
-
-.pricing-header {
-  max-width: 700px;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
+body{
   width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #725752ff;
 }
 
 .fa{
-  font-size:20px;
   color:red;
 }
+
+h1{
+  background-color: #96c0b7ff;
+  width: 100%;
+  text-align: center;
+}
+
+.container{
+  color:#fef6c9ff;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea{
+  width: 100%;
+  background-color: #878e88ff;
