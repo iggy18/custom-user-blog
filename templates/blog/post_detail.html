@@ -3,10 +3,9 @@
 {% block content %}
 
 <div class="blog_post">
-    <h2> blog post </h2>
-    <h2> {{ object.title }} </h2>
-    <h3> {{ object.author }} </h3>
-    <h3> {{ object.body }} </h3>
+    <h1> {{ object.title }} </h1>
+    <h5> {{ object.author }} </h5>
+    <h6> {{ object.body }} </h6>
     <a href="{% url 'edit_post' post.pk %}"><i class="fas fa fa-edit fa-3x"></i></a>
     <a href="{% url 'delete_post' post.pk %}"><i class="fas fa fa-trash fa-3x"></i></a>
 </div>

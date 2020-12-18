@@ -14,26 +14,77 @@ body{
   background: #725752ff;
 }
 
-.fa{
-  color:red;
+.fa-home{
+  color:#fef6c9ff
 }
 
 h1{
   background-color: #96c0b7ff;
   width: 100%;
   text-align: center;
+  padding-bottom: 8px;
+}
+
+h5{
+  background:#878e88ff;
+  margin-top: -8px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+h6{
+  color: #725752ff;
+  text-align: center;
 }
 
 .container{
   color:#fef6c9ff;
   width: 100%;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
+  padding: 0px;
 }
 
 textarea{
   width: 100%;
   background-color: #878e88ff;
+  border-radius: 5px;
+}
+
+.header{
+  width: 100%;
+  background-color:  #d4dfc7ff;
+}
+
+a:link{
+  text-decoration: none;
+  color: #96c0b7ff;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #96c0b7ff;
+}
+
+.fa-trash{
+  float: right;
+  color: #878e88ff;
+  margin-right: 2vw;
+}
+
+.fa-edit{
+  color: #878e88ff;
+  margin-left: 2vw;
+}
+
+.blog_post{
+  width: 100%;
+  background-color: #fef6c9ff;
+  border-radius: 5px;
+  border: 6px solid #96c0b7ff;
+box-shadow: -5px 9px 8px 1px rgba(51, 27, 27, 0.59);
+}
